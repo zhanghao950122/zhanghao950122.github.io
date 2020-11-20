@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./image/logo.png">
+    <style>
+        body {
+            font-size: 16px;
+            background: url(./image/background.jpeg) no-repeat;
+            background-position: 0% 0%;
+            background-size: cover;
+        }
+        .category {
+            width: 70%;
+            margin-left: 15%;
+        }
+        h1 {
+            text-align: left;
+            letter-spacing: 0.25rem;
+            font-family: serif;
+        }
+        .nor-work {
+            width: 90%;
+            margin-left: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .shuiwu {
+            width: 22%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center
+        }
+        .jianguan {
+            width: 22%;
+            margin-left: 4%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center
+        }
+        .pctsy {
+            height: 100px;
+            position: relative;
+            cursor: pointer;
+        }
+        .pctsy img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="category">
+        <h1>精选常用办公平台</h1>
+        <div class="nor-work">
+            <div class="shuiwu">
+                <div class="pctsy" onclick="window.open('http://shanghai.chinatax.gov.cn')">
+                    <img style="width: 40%; height: auto;" src="./image/shsw.png" alt="">
+                </div>
+                <p>上海市税务局(税务登记/申报)</p>
+            </div>
+            <div class="jianguan">
+                <div class="pctsy" onclick="window.open('https://fpdk.shanghai.chinatax.gov.cn')">
+                    <img style="width: 40%; height: auto;" src="./image/shsw.png" alt="">
+                </div>
+                <p>上海市税务局(发票管理)</p>
+            </div>
+            <div class="jianguan">
+                <div class="pctsy" onclick="window.open('http://shanghai.chinatax.gov.cn/newxbwz/wzcx/WSBSptFpCx_loginsNewl.jsp')">
+                    <img style="width: 40%; height: auto;" src="./image/shsw.png" alt="">
+                </div>
+                <p>上海市税务局(发票查询)</p>
+            </div>
+            <div class="jianguan">
+                <div class="pctsy" onclick="window.open('https://inv-veri.chinatax.gov.cn')">
+                    <img style="width: 40%; height: auto;" src="./image/shsw.png" alt="">
+                </div>
+                <p>增值税发票查询平台</p>
+            </div>
+        </div>
+        <div class="nor-work" style="margin-top:25px">
+            <div class="shuiwu">
+                <div class="pctsy" onclick="window.open('http://scjgj.sh.gov.cn')">
+                    <img style="width: 100%; height: auto;" src="./image/jianguan.png" alt="">
+                </div>
+                <p>上海市市场监督管理局</p>
+            </div>
+            <div class="jianguan">
+                <div class="pctsy" onclick="window.open('http://www.bosc.cn')">
+                    <img style="width: 80%; height: auto;" src="./image/shanghaibank.png" alt="">
+                </div>
+                <p>上海银行（资金）</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="category" style="margin-top: 50px;">
+        <h1>支付平台</h1>
+        <div class="nor-work">
+            <div class="shuiwu">
+                <div class="pctsy" onclick="window.open('https://www.alipay.com')">
+                    <img style="width: 75%; height: auto;" src="./image/alipay.png" alt="">
+                </div>
+                <p>支付宝</p>
+            </div>
+            <div class="jianguan">
+                <div class="pctsy" onclick="window.open('https://www.tenpay.com/v3')">
+                    <img style="width: 75%; height: auto;" src="./image/tenpay.png" alt="">
+                </div>
+                <p>财付通</p>
+            </div>
+            <div class="jianguan">
+                <div class="pctsy" onclick="window.open('https://cn.unionpay.com/upowhtml/cn/templates/index/index.html')">
+                    <img style="width: 75%; height: auto;" src="./image/unionpay.png" alt="">
+                </div>
+                <p>银联</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="category" style="margin-top: 50px;">
+        <h1>第三方平台</h1>
+        <div class="nor-work">
+            <div class="shuiwu">
+                <div class="pctsy" onclick="window.open('https://ecloud.10086.cn/home/')">
+                    <img style="width: 75%; height: auto;" src="./image/moblecloud.png" alt="">
+                </div>
+                <p>移动云</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
